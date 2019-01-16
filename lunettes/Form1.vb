@@ -10,9 +10,9 @@
             NomClient.Text = wItem.wClient.Nom & " " & wItem.wClient.PreNom
             For Each wLunettes In wItem.lunettesClients
                 lstLun.Items.Add(wLunettes.Monture)
-                For Each wverre In wLunettes.VerreList
-                    lstLun.Items.Add(wverre.Nom)
-                Next
+                'For Each wverre In wLunettes.VerreList
+                '    lstLun.Items.Add(wverre.Nom)
+                'Next
             Next
         Next
     End Sub
