@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="Adresse.vb" />
     <Compile Include="Client.vb" />
+    <Compile Include="Donnees.vb" />
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
